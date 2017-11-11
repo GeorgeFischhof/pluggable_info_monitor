@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+    {% block body %}
+
+    {% for info_part in info %}
+
+        <div class="{{ info_part['display_part'] }} {{ info_part['info_severity'] }}">
+            {% if info_part['info'] is mapping() %}
+
+                {% for key, value in info_part['info'].items() %}
+                    {{ key | safe }}: {{ value | safe }} <br>
+                {% endfor %}
+
+            {% else %}
+                {{ info_part['info'] | safe }}
+
+            {% endif %}
+
+        </div>
+
+    {% endfor %}
+
+    {% endblock %}

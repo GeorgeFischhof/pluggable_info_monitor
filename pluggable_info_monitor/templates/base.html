@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Refresh" content="{{ show_next_info_after_seconds }};url={{ [base_url, next_provider]|join }}">
+
+    <title>
+        {% block title %}
+            Current: {{ title }} Next: {{ next_provider }}
+        {% endblock %}
+    </title>
+
+    {% block stylesheet %}
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='show.css') }}">
+    {% endblock %}
+</head>
+<body onkeypress='location.href="{{ [base_url, next_provider]|join }}";'>
+    {% block body %}
+    {% endblock %}
+
+    {% block footer %}
+    <div class="footer_right">Current: {{ title }} Next: {{ next_provider }}</div>
+    {% endblock %}
+
+</body>
+</html>

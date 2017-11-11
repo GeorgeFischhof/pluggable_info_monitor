@@ -1,0 +1,172 @@
+
+
+body {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+/* ****************************** */
+/*            headers             */
+/* ****************************** */
+
+div.header_1 {
+    font-size: 2.3vw;
+    font-weight: bold;
+}
+
+div.header_2 {
+    font-size: 1.7vw;
+    font-weight: bold;
+}
+
+
+/* ****************************** */
+/* Screen not divided full_screen */
+/* ****************************** */
+
+div.full_screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+    overflow: scroll;
+}
+
+/* ****************************** */
+/* Screen divided into top-bottom */
+/* ****************************** */
+
+div.half_top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    font-size: 3vw;
+    overflow: scroll;
+}
+
+div.half_bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    font-size: 3vw;
+    overflow: scroll;
+}
+
+/* ****************************** */
+/* Screen divided into left-right */
+/* ****************************** */
+
+div.half_left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    font-size: 3vw;
+    overflow: scroll;
+}
+
+div.half_right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    font-size: 3vw;
+    overflow: scroll;
+}
+
+/* ****************************** */
+/* Screen divided into 4 quarters */
+/* ****************************** */
+
+div.quarter_top_left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    font-size: 3vw;
+    overflow: scroll;
+}
+
+    div.quarter_top_right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    font-size: 3vw;
+    overflow: scroll;
+}
+
+div.quarter_bottom_left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    font-size: 3vw;
+    overflow: scroll;
+}
+
+div.quarter_bottom_right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    font-size: 3vw;
+    overflow: scroll;
+}
+
+/* ****************************** */
+/*      Colors for severity       */
+/* ****************************** */
+
+div.info_severity_info {
+    background-color: white;
+    color: black;
+}
+
+div.info_severity_ok {
+    background-color: lightgreen;
+    color: black;
+}
+
+div.info_severity_warning {
+    background-color: yellow;
+    color: black;
+}
+
+div.info_severity_error {
+    background-color: red;
+    color: white;
+}
+
+/* ****************************** */
+/*           footers              */
+/* ****************************** */
+
+div.footer_left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+}
+
+div.footer_right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+}

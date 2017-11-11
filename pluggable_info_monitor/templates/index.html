@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+    {% block body %}
+
+    <center> <div class="header_1">{{ welcome_message_on_index_page }}</div> </center>
+    <div class="header_2">Available info providers</div>
+    <br>
+
+    <div style="column-count: {{ index_page_number_of_columns }};">
+        {% for provider in info_providers %}
+            <div class="header_2">{{ loop.index }}.) <a href="{{ [base_url, provider]|join }}"> {{ provider }}</a></div>
+        {% else %}
+            <div class="header_2">Unbelievable. There is no info provider plugin ...</div>
+        {% endfor %}
+    </div>
+
+    <div class="footer_left">{{ version }}</div>
+
+    {% endblock %}
