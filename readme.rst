@@ -16,10 +16,12 @@ Quick Start
 
 2. Copy the source to a folder of your choice
 3. Check working:
+
     a. ``cd <path_to_info_monitor.py>``
-    a. ``python info_monitor``
-    b. in a browser window navigate to ``127.0.0.1:8080`` address 
-    c. the example plugins give some info - It works ;-)
+    b. ``python info_monitor``
+    c. in a browser window navigate to ``127.0.0.1:8080`` address 
+    d. the example plugins give some info - It works ;-)
+
 4. You can write your plugins using the examples
 
 Usage
