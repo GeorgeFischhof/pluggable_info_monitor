@@ -133,3 +133,15 @@ Requirements
 
 PIM has is no any install procedure right now. You can get PIM from the source.
 
+
+Contribution
+------------
+
+Contributions are welcome.
+
+To report any issue / feature request, use the issue tracker:
+
+https://bitbucket.org/GeorgeFischhof/pluggable_info_monitor/issues
+
+
+To contribute code, you can fork / clone it and create a pull request.
