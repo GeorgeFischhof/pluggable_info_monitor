@@ -145,3 +145,8 @@ https://bitbucket.org/GeorgeFischhof/pluggable_info_monitor/issues
 
 
 To contribute code, you can fork / clone it and create a pull request.
+
+
+If you liked this material you can consider supporting me with a coffee, pizza or beer :D
+
+https://ko-fi.com/georgefischhof
